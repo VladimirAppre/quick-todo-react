@@ -6,7 +6,7 @@ const AppHeader = ({toDo, done}) => {
 
   function caseCondition () {
     if(toDo === 0 && done === 0 ) {
-      return `Совсем пусто, не надо так`;
+      return `Совсем все пусто, давай добавим задач`;
     } else if (toDo === 0 && done !== 0){
       return `Пора накинть новых задач, 
       а выполненных задач ${done}`;
@@ -14,7 +14,7 @@ const AppHeader = ({toDo, done}) => {
       return `У вас ${toDo} активных задач,
              а выполненных задач нет`;
     } else {
-      return `Осталось выполнить ${toDo}, \n а всего выполнено ${done}`;
+      return `Осталось выполнить ${toDo}, а всего выполнено ${done}`;
     };
   };
 

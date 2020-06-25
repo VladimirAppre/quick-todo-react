@@ -11,11 +11,7 @@ export default class App extends Component {
   maxId = 100;
 
   state = {
-    todoData: [
-      this.createTodoItem(('Выпить кофе')),
-      this.createTodoItem(('Продемонстрировать структуру кода!')),
-      this.createTodoItem(('поймать Дзен')),
-    ],
+    todoData: [],
     term: '',
     filter: 'active' //active, all, done;
   };
