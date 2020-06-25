@@ -38,6 +38,6 @@ export default class ItemAddForm extends Component {
           Добавить
         </button>
       </form>
-    )
-  }
-}
+    );
+  };
+};
